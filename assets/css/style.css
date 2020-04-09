@@ -1,0 +1,346 @@
+html{
+    max-width: 1920px;
+    margin: 0 auto;
+    width: auto;
+}
+
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+.header{
+    background-color: #f59b00;
+    text-align: center;
+
+}
+.headertxt {
+    margin-top: 100px;
+    margin-bottom: -20px;
+    color:#a56208;
+    text-align: center;
+    font-size: 2.5em;
+}
+.imgheader{
+    display:none;
+}
+
+.imageblockwhite{
+    padding: 120px 40px 40px 120px;
+}
+.imageblockwhitepq{
+    float: right ;
+}
+.blockwhite{
+    padding: 60px 60px 40px 40px;
+}
+.blockwhitetitle{
+    color:#f59b00;
+    font-size: 1.8em;
+}
+.blockwhitetxt{
+    padding-right: 80px;
+    margin-top: -10px;
+}
+.trace{
+    border-bottom: solid 5px #a56208;
+    width: 200px;
+    text-align: left;
+    margin-bottom: 80px;
+}
+.tracecontato{
+    border-bottom: solid 5px #f59b00;
+    width: 200px;
+    text-align: left;
+    margin-bottom: 80px;
+}
+.blockorange{
+    padding: 60px 60px 40px 140px;
+}
+.blockorangetitle{
+    color:#a56208;
+    font-size: 4em;
+}
+.blockorangetxt{
+    padding-right: 80px;
+    margin-top: -10px;
+    font-size: 1.2em;
+}
+.imageblockorange{
+    padding: 0px 40px 0px 10px;
+    margin-bottom: -40px;
+}
+.sobre{
+    max-width: 100%;
+    padding:0;
+}
+.footer{
+    background-color: #414141;
+    color:#fff;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 0.8em;;
+}
+.session2{
+    background-color: #f59b00;
+    color:#fff;
+
+}
+.topmenu img{
+    padding: 40px 40px 40px 40px;
+}
+.topmenu{
+    background-color: #fff;
+    color:#000;
+    margin-bottom: -30px;
+}
+.topmenu a{
+    color:#000;
+}
+.topmenu a:hover{
+    color:#f59b00;
+}
+.topmenu ul.nav {
+    float: right;
+    padding: 40px 40px 40px 40px;
+}
+.centralize{
+    display: flex;
+    align-items: center;
+    justify-content: center ;}
+
+.buttoncenter{
+    text-align: center;
+}
+.buttonalign{
+    text-align: left;
+}
+.btnheader{
+    margin-bottom:200px;
+    background-color: #f59b00;
+    color:#a56208;
+    border:solid 2px #a56208;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.5em;
+}
+.btnheader:hover{
+    background-color: #f59b00;
+    color:#414141;
+    border:solid 2px #414141;
+    padding: 10px 20px 10px 20px;
+}
+.btnyellow{
+    background-color: #f59b00;
+    color:#fff;
+    border: 0;
+    padding: 10px 20px 10px 20px;
+}
+.btnyellow:hover{
+    background-color: #f59b00;
+    color:#414141;
+    border: 0;
+    padding: 10px 20px 10px 20px;
+}
+.btnsobre{
+    margin-top: 50px;
+    background-color: #f59b00;
+    color:#a56208;
+    border:solid 2px #a56208;
+    padding: 10px 20px 10px 20px;
+}
+.btnsobre:hover{
+    background-color: #f59b00;
+    color:#414141;
+    border:solid 2px #414141;
+    padding: 10px 20px 10px 20px;
+}
+.btnyellowForm{
+    background-color: #f59b00;
+    color:#fff;
+    border: 0;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+
+}
+.btnyellowForm:hover{
+    background-color: #f59b00;
+    color:#414141;
+    border: 0;
+    padding: 10px 20px 10px 20px;
+}
+.blockcontatotitle{
+    color:#f59b00;
+    font-size: 4em;
+}
+.formulario{
+    padding: 60px 160px 40px 40px;
+}
+.formulario label{
+ font-size: 0.8em;
+ margin-bottom: -10px;
+}
+input[type="text"], input[type="email"], input[type="number"] {
+    font-size: 0.8em;
+    margin-bottom: -15px;
+}
+.menu-mobile, .nav-mobile{
+	display: none;
+}
+
+/*CELULARES*/
+@media screen and (max-width: 420px) {
+    .nav-mobile{
+        display: flex;
+
+    }
+	.menu{
+		display: none;
+    }
+    a.icon {
+        margin-top: 35px;
+        margin-left: 100px;
+        font-size: 20px;
+    }
+    .headertxt {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        color:#a56208;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    .btnheader{
+        margin-bottom:20px;
+        margin-top: 20px;
+        background-color: #f59b00;
+        color:#a56208;
+        border:solid 2px #a56208;
+        padding: 10px 20px 10px 20px;
+        font-size: 1.2em;
+    }
+    .imgheader{
+        display:flex;
+        margin-top: -75px;
+    }
+
+    .topmenu img{
+        /*padding: 40px 40px 20px 60px;*/
+        min-width: 200px;
+
+    }
+    .topmenu ul.nav {
+        float: center;
+        padding: 20px 20px 20px 20px;
+        font-size: 0.8em;
+    }
+    .imageblockwhite{
+        padding: 20px 20px 20px 20px;
+    }
+    .blockwhite{
+        padding: 10px 20px 40px 0px;
+    }
+    .imageblockwhitepq{
+        margin:5px 20px 0px 0px ;
+    }
+    .blockwhitetitle{
+        color:#f59b00;
+        font-size: 1.2em;;
+    }
+    .blockwhitetxt{
+        padding-right: 10px;
+        font-size: 0.8em;;
+    }
+    .formulario{
+        padding: 20px 20px 20px 20px;
+    }
+    .imageblockorange{
+        padding: 0px 0px 0px 10px;
+        margin-bottom: -20px;
+    }
+    .blockorange{
+        padding: 20px 20px 20px 20px;
+    }
+    .blockorangetitle{
+        color:#a56208;
+        font-size: 3em;
+    }
+    .blockorangetxt{
+        padding-right: 0px;
+        text-align: center;
+        margin-top: -10px;
+        font-size: 1.2em;
+    }
+    .btnsobre{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        background-color: #f59b00;
+        color:#a56208;
+        border:solid 2px #a56208;
+        padding: 10px 20px 10px 20px;
+        text-align: center!important;
+    }
+    .trace{
+        border-bottom: solid 5px #a56208;
+        width: 200px;
+        text-align: center!important;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    .buttonalign{
+        text-align: center;
+    }
+    .blockcontatotitle{
+        color:#f59b00;
+        font-size: 3em;
+        text-align: center!important;
+    }
+    .tracecontato{
+        border-bottom: solid 5px #f59b00;
+        width: 200px;
+        text-align: left;
+        text-align: center!important;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    .btnyellow{
+        background-color: #f59b00;
+        color:#fff;
+        border: 0;
+        padding: 10px 20px 10px 20px;
+        font-size: 1.2em;
+    }
+    .btnsobre{
+        margin-top: 50px;
+        background-color: #f59b00;
+        color:#a56208;
+        border:solid 2px #a56208;
+        padding: 10px 20px 10px 20px;
+        font-size: 1.2em;
+    }
+}
+/*TABLETS*/
+@media screen and (min-width: 421px) and (max-width: 768px){
+    .topmenu img{
+        padding: 40px 40px 20px 40px;
+        align-content: center;
+    }
+    .topmenu ul.nav {
+        float: center;
+        padding: 20px 20px 20px 20px;
+        font-size: 0.8em;
+    }
+}
+/* Desktop medios */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .topmenu img{
+        padding: 40px 40px 20px 40px;
+        align-content: center;
+    }
+    .topmenu ul.nav {
+        float: center;
+        padding: 20px 20px 20px 20px;
+        font-size: 0.8em;
+    }
+}
+
+/* Desktop grande */
+@media screen and (min-width: 993px) {
+
+}
