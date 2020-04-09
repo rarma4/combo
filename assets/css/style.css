@@ -22,7 +22,6 @@ body{
 .imgheader{
     display:none;
 }
-
 .imageblockwhite{
     padding: 120px 40px 40px 120px;
 }
@@ -98,10 +97,7 @@ body{
 .topmenu a:hover{
     color:#f59b00;
 }
-.topmenu ul.nav {
-    float: right;
-    padding: 40px 40px 40px 40px;
-}
+
 .centralize{
     display: flex;
     align-items: center;
@@ -189,7 +185,6 @@ input[type="text"], input[type="email"], input[type="number"] {
 @media screen and (max-width: 420px) {
     .nav-mobile{
         display: flex;
-
     }
 	.menu{
 		display: none;
@@ -198,6 +193,9 @@ input[type="text"], input[type="email"], input[type="number"] {
         margin-top: 35px;
         margin-left: 100px;
         font-size: 20px;
+    }
+    a.nav-link.active {
+        color: #f5a322!important;
     }
     .headertxt {
         margin-top: 30px;
@@ -223,12 +221,14 @@ input[type="text"], input[type="email"], input[type="number"] {
     .topmenu img{
         /*padding: 40px 40px 20px 60px;*/
         min-width: 200px;
-
     }
+ 
     .topmenu ul.nav {
-        float: center;
         padding: 20px 20px 20px 20px;
-        font-size: 0.8em;
+        font-size: 1.0em;
+        width: 100%;
+        display: block;
+        text-align: center;
     }
     .imageblockwhite{
         padding: 20px 20px 20px 20px;
@@ -321,11 +321,11 @@ input[type="text"], input[type="email"], input[type="number"] {
         padding: 40px 40px 20px 40px;
         align-content: center;
     }
-    .topmenu ul.nav {
+    /*.topmenu ul.nav {
         float: center;
         padding: 20px 20px 20px 20px;
         font-size: 0.8em;
-    }
+    }*/
 }
 /* Desktop medios */
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -333,14 +333,20 @@ input[type="text"], input[type="email"], input[type="number"] {
         padding: 40px 40px 20px 40px;
         align-content: center;
     }
-    .topmenu ul.nav {
+    /*.topmenu ul.nav {
         float: center;
         padding: 20px 20px 20px 20px;
         font-size: 0.8em;
-    }
+    }*/
 }
 
 /* Desktop grande */
 @media screen and (min-width: 993px) {
-
+    a.nav-link.active {
+        color: #f5a322!important;
+    }
+    .topmenu ul.nav {
+        margin: 40px 10px;
+        float: right;
+    }
 }
