@@ -6,6 +6,7 @@ html{
 
 body{
     font-family: 'Varela Round', sans-serif;
+   position: relative;
 }
 .header{
     background-color: #f59b00;
@@ -18,6 +19,13 @@ body{
     color:#a56208;
     text-align: center;
     font-size: 2.5em;
+}
+.centralizar{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 .imgheader{
     display:none;
@@ -71,17 +79,10 @@ body{
     max-width: 100%;
     padding:0;
 }
-.footer{
-    background-color: #414141;
-    color:#fff;
-    text-align: center;
-    padding-top: 15px;
-    font-size: 0.8em;;
-}
+
 .session2{
     background-color: #f59b00;
     color:#fff;
-
 }
 .topmenu img{
     padding: 40px 40px 40px 40px;
@@ -116,6 +117,7 @@ body{
     border:solid 2px #a56208;
     padding: 10px 20px 10px 20px;
     font-size: 1.5em;
+    cursor:pointer;
 }
 .btnheader:hover{
     background-color: #f59b00;
@@ -128,6 +130,7 @@ body{
     color:#fff;
     border: 0;
     padding: 10px 20px 10px 20px;
+    cursor:pointer;
 }
 .btnyellow:hover{
     background-color: #f59b00;
@@ -141,6 +144,7 @@ body{
     color:#a56208;
     border:solid 2px #a56208;
     padding: 10px 20px 10px 20px;
+    cursor:pointer;
 }
 .btnsobre:hover{
     background-color: #f59b00;
@@ -154,7 +158,7 @@ body{
     border: 0;
     padding: 10px 20px 10px 20px;
     width: 100%;
-
+    cursor:pointer;
 }
 .btnyellowForm:hover{
     background-color: #f59b00;
@@ -179,6 +183,159 @@ input[type="text"], input[type="email"], input[type="number"] {
 }
 .menu-mobile, .nav-mobile{
 	display: none;
+}
+
+.footer{
+    background-color: #414141;
+    color:#fff;
+    text-align: center;
+    font-size: 0.8em;
+    padding:5px 20px;
+    padding-top: 5px;
+}
+.bannerClientes{
+margin-top:20px!important;
+background-color: #f59b00;
+color:#fff;
+height: 500px;
+}
+.txtClientes{
+    font-size: 5.5em;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.imgClienteBannerLeft{
+    height: 500px;
+    background-size:auto 500px;
+	background-image: url('../../assets/img/bannerClientesLeft.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-color:#f59b00;
+}
+.imgClienteBannerRight{
+    height: 500px;
+    background-size:auto 500px;
+	background-image: url('../../assets/img/bannerClientesRight.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color:#f59b00;
+}
+.imgClientes{
+    max-width: 400px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.titleServicos{
+    color:#fff;
+    font-size: 3em;
+    text-align: center;
+    line-height: 1em;
+    margin-top: 130px;
+}
+.titleServicosZendesk{
+    color:#a56208;
+    font-size: 12px;
+}
+.txtServicos1{
+    color:#fff;
+    font-size: 20px;
+    line-height: 1em;
+    margin-top: 30px;
+}
+.txtServicos2{
+    font-size: 12px;
+}
+.bannerServicos{
+    height: 400px;
+}
+.imgServicosBanner{
+    height: 400px;
+    background-size:auto 400px;
+	background-image: url('../../assets/img/bannerServiços.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-color:#f59b00;
+}
+.bannerServicoBlocoA{
+    margin:0 auto;
+    text-align: center;
+}
+.bannerServicoBlocoB{
+margin-top: 20px;
+
+}
+.imgServicos{
+    margin-top:20px;
+}
+.servicostxt{
+    color:#00333a;
+    font-size: 20px;
+    line-height: 1em;
+    margin-top: 20px;
+    text-align: center;
+}
+.servicosTitle{
+    color:#000;
+    font-size: 40px;
+    line-height: 0.6em;
+    margin-top: 20px;
+    text-align: center;
+}
+.servicosTitletxt{
+    color:#7f7f7f;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -10px;
+}
+.linha{
+    width: 90%;
+    list-style-type: none;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.green{
+    border-top: 2px solid #78a300;
+}
+.orange{
+    border-top: 2px solid #f69a3d;
+}
+.pink{
+    border-top: 2px solid #eb4962;
+}
+.yellow{
+    border-top: 2px solid #edc103;
+}
+.cyan{
+    border-top: 2px solid #30aabc;
+}
+.salmon{
+    border-top: 2px solid #eb6651;
+}
+.boxes{
+    text-align: center;
+    box-shadow: 5px 10px 28px #888888;
+    padding: 30px 20px;
+    margin:30px 10px;
+}
+.btnZendeskSuite{
+    background-color:rgba(255, 255, 255, 0);
+    color:#000;
+    border:solid 2px #000;
+    padding: 5px 30px 5px 30px;
+    font-size: 0.8em;
+    cursor:pointer;
+}
+.txtZendeskSuite{
+    font-size: 0.8em;
 }
 
 /*CELULARES*/
@@ -313,6 +470,99 @@ input[type="text"], input[type="email"], input[type="number"] {
         border:solid 2px #a56208;
         padding: 10px 20px 10px 20px;
         font-size: 1.2em;
+    }
+    .bannerClientes{
+        margin-top:20px!important;
+        background-color: #f59b00;
+        color:#fff;
+        height: 500px;
+        }
+    .txtClientes{
+        font-size: 2.8em;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+    .imgClienteBannerLeft{
+        background-size:auto 250px;
+        height: 250px;
+        background-image: url('../../assets/img/bannerClientesLeft.png');
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-color:#f59b00;
+    }
+    .imgClienteBannerRight{
+        background-size:auto 250px;
+        height: 250px;
+        background-image: url('../../assets/img/bannerClientesRight.png');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-color:#f59b00;
+    }
+    .imgClientes{
+        max-width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .titleServicos{
+        color:#fff;
+        font-size: 2em;
+        text-align: center;
+        line-height: 1em;
+        margin-top: 50px;
+    }
+    .titleServicosZendesk{
+        color:#a56208;
+        font-size: 12px;
+    }
+    .txtServicos1{
+        color:#fff;
+        font-size: 20px;
+        line-height: 1em;
+        margin-top: 30px;
+        margin-left: -20px;
+    }
+    .txtServicos2{
+        font-size: 12px;
+    }
+    .bannerServicos{
+        height: 600px;
+    }
+    .bannerServicoBlocoA{
+        margin:0 auto;
+        text-align: center;
+    }
+    .bannerServicoBlocoB{
+    margin-top: 1px;
+    }
+    .imgServicos{
+        text-align: center;
+        margin-top:10px;
+        margin-left: 20px;
+    }
+    .servicostxt{
+        color:#00333a;
+        font-size: 18px;
+        line-height: 1.2em;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .servicosTitle{
+        color:#000;
+        font-size: 40px;
+        line-height: 1.0em;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .servicosTitletxt{
+        color:#7f7f7f;
+        font-size: 18px;
+        text-align: center;
+        margin-top: -10px;
     }
 }
 /*TABLETS*/
